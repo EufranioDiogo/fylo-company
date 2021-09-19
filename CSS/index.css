@@ -1,0 +1,224 @@
+#app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(218, 28%, 13%);
+}
+
+.header-container {
+  padding: 4rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: hsl(217, 28%, 15%);
+}
+
+.header-container--logo {
+  height: 3.2rem;
+}
+
+.header-container--menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.menu-item {
+  margin: 0 2rem;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.menu-link {
+  color: rgba(255, 255, 255, 0.705);
+  text-decoration: none;
+}
+
+.menu-link:hover {
+  color: #fff;
+}
+
+.section {
+  width: 100%;
+}
+
+.section-1 {
+  background-color: hsl(217, 28%, 15%);
+  background-image: url('../images/bg-curvy-desktop.svg');
+  background-size: cover;
+  background-position: bottom center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-1--main-image {
+  object-fit: cover;
+}
+
+.section-1--main-content {
+  width: 50%;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-1--main-title {
+  text-align: center;
+}
+
+.section-1--main-description {
+  text-align: center;
+  margin-top: 1rem;
+  display: inline-block;
+  width: 60%;
+}
+
+.section-1--main-button {
+  margin-top: 1rem;
+  width: 15%;
+}
+
+.default-button-style-round {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  background: linear-gradient(hsl(198, 60%, 50%), hsl(176, 68%, 64%));
+  border: none;
+  color: #fff;
+  text-align: center;
+}
+
+.section-2 {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10rem;
+  margin: 15rem 0;
+}
+
+.section-2--main-services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-2--main-service-img {
+  margin-bottom: 1rem;
+}
+.section-2--main-service-title {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+.section-2--main-content {
+  display: inline-block;
+  text-align: center;
+}
+
+.section-3 {
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15rem;
+}
+.section-3--main-img {
+  width: 48.5%;
+  object-fit: cover;
+}
+.section-3--main-content-container {
+  width: 48.5%;
+}
+
+.quotes-section {
+  background-image: url('../images/bg-curvy-desktop.svg');
+  background-size: cover;
+  background-position: left top;
+  padding: 0 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.quote-container {
+  width: 31%;
+  background-color:hsl(217, 27%, 19%);
+  padding: 3rem 1rem 1rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.quote-info-container {
+  display: flex;
+  margin-top: 1rem;;
+}
+.quote-user-img {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.quote-user-info {
+  color: white;
+}
+
+.quote-username {
+  font-size: 1.3rem;
+}
+.quote-user-position {
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin-top: 0.15rem;
+}
+
+
+.section-5  {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  margin: 15rem 0;
+  align-items: center;
+  padding: 4rem;
+  background-color:hsl(217, 27%, 19%);
+  border-radius: 0.5rem;
+}
+
+.section-5--main-content {
+  text-align: center;
+}
+.section-5--get-started-div {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.section-5--input-get-started {
+  outline: none;
+  border-radius: 2rem;
+  border: none;
+  padding: 1rem 2rem;
+  margin-right: 1rem;
+  width: 50%;
+}
+.footer {
+  background-color: hsl(216, 53%, 9%);
+  width: 100%;
+  padding: 8rem 6rem 4rem 6rem;
+}
+
+.main-title {
+  font-size: 3.2rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.normal-text {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.712);
+  display: inline-block;
+}
