@@ -1,13 +1,13 @@
-# [Frontend Mentor - Chat app CSS illustration](https://eufraniodiogo.github.io/fylo-company)
+# [Frontend Mentor -  Fylo dark theme landing page](https://eufraniodiogo.github.io/fylo-company)
 
 
-**Link** [Frontend Mentor - Chat app CSS illustration](https://eufraniodiogo.github.io/fylo-company)
+**Link** [Frontend Mentor -  Fylo dark theme landing page](https://eufraniodiogo.github.io/fylo-company)
 
 ---
 
 [English](#english) | [Português](#portugues)
 
-![Design preview for the Chat app CSS illustration coding challenge](./design/desktop-preview.jpg)
+![Design preview for the  Fylo dark theme landing page coding challenge](./design/desktop-preview.jpg)
 
 <h2 id="english">Welcome! 👋</h2>
 
