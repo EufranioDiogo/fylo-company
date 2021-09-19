@@ -110,6 +110,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid hsl(217, 27%, 13%);
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  transition: 0.5s;
+}
+.section-2--main-services-container:hover {
+  border: 1px solid hsl(218, 27%, 30%);
 }
 .section-2--main-service-img {
   margin-bottom: 1rem;
@@ -137,6 +144,52 @@
 }
 .section-3--main-content-container {
   width: 48.5%;
+}
+.link-see-how-fylo-works {
+  margin-top: 2rem;
+  text-decoration: none;
+  position: relative;
+  transition: 0.5s;
+  display: inline-block;
+}
+.link-see-how-fylo-works:hover {
+  color: #fff;
+}
+.link-see-how-fylo-works:hover:after {
+  width: 100%;
+  animation: none;
+  background-color: #fff;
+  transition: 0.5s;
+}
+.link-see-how-fylo-works::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1.5%;
+  width: 55%;
+  border-radius: 1rem;
+  height: 0.2rem;
+  background-color: hsla(0, 0%, 100%, 0.712);
+  animation: encrease-decrease 10s infinite ease-out;
+  transition: 0.5s;
+}
+
+@keyframes encrease-decrease {
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 55%;
+  }
+  50% {
+    width: 35%
+  }
+  75% {
+    width: 55%;
+  }
+  100% {
+    width: 0%;
+  }
 }
 
 .quotes-section {
