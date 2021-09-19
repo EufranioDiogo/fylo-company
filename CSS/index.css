@@ -343,6 +343,19 @@
   color: hsla(0, 0%, 100%, 0.712);
   display: inline-block;
 }
+.location-footer-menu-icon {
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-color: hsl(218, 28%, 13%);
+  }
+  #app {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
 
 @media screen and (max-width: 1024px) {
   #app {
