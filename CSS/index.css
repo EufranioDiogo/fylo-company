@@ -343,3 +343,91 @@
   color: hsla(0, 0%, 100%, 0.712);
   display: inline-block;
 }
+
+@media screen and (max-width: 1024px) {
+  #app {
+    width: 100%;
+  }
+  .header-container--logo {
+    height: 2.4rem
+  }
+  .header-container {
+    padding: 4rem 1rem;
+  }
+  .menu-item {
+    margin: 0 0.5rem;
+  }
+  .section-1--main-image {
+    width: 80%;
+  }
+  .section-1--main-content {
+    width: 100%;
+  }
+  .section-1--main-description {
+    width: 95%;
+  }
+  .section-1--main-button {
+    width: 55%;
+  }
+  .section-2 {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+    width: 90%;
+  }
+  .section-3 {
+    flex-direction: column;
+    padding: 0;
+  }
+  .section-3--main-img {
+    width: 90%;
+  }
+
+  .section-3--main-content-container {
+    width: 90%;
+  }
+
+  .quotes-section {
+    flex-direction: column;
+    width: 95%;
+  }
+  .quote-container {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .section-5 {
+    width: 92.5%;
+  }
+  .section-5-main-title  {
+    text-align: center;
+  }
+  
+  .section-5--get-started-div {
+    flex-direction: column;
+  }
+
+  .section-5--input-get-started {
+    width: 100%;;
+  }
+
+  .section-5--button-submit {
+    margin-top: 2rem;
+  }
+
+  .footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .footer-section-container {
+    grid-template-columns: 1fr;
+  }
+  .extensive-footer-menu {
+    grid-template-columns: 1fr;
+  }
+  .social-media-menu {
+    justify-content: center;
+  }
+
+  .main-title {
+    font-size: 2.4rem;
+  }
+}
