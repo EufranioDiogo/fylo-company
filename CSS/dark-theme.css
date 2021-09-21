@@ -1,0 +1,15 @@
+:root {
+  --page-background: hsl(217, 27%, 13%);
+  --header-background: hsl(217, 28%, 15%);
+  --section-one-main-services-border-on: hsl(218, 27%, 30%);
+  --item-text: rgba(255, 255, 255, 0.705);
+  --white: white;
+  --quote-container-background: hsl(217, 27%, 19%);
+  --quote-container-box-shadow: hsla(218, 28%, 19%, 0.13);
+  --quote-container-box-shadow-hover: hsla(218, 28%, 19%, 0.472);
+  --footer-background: hsl(215, 52%, 9%);
+  --footer-element--item--content: hsla(0, 0%, 100%, 0.822);
+  --normal-text: hsla(0, 0%, 100%, 0.712);
+  --header-img: '../images/bg-curvy-desktop.svg';
+  --social-media-icon-colors: hsl(0, 0%, 100%);
+}

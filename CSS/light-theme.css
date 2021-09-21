@@ -1,0 +1,15 @@
+:root {
+  --page-background: hsl(0, 0%, 98%);
+  --header-background: hsl(0, 0%, 100%);
+  --section-one-main-services-border-on: hsl(218, 27%, 30%);
+  --item-text: rgba(41, 41, 41, 0.705);
+  --white: rgb(0, 0, 0);
+  --quote-container-background: hsl(0, 0%, 100%);
+  --quote-container-box-shadow: hsla(0, 0%, 63%, 0.13);
+  --quote-container-box-shadow-hover: hsla(218, 28%, 19%, 0.472);
+  --footer-background: hsl(215, 52%, 9%);
+  --footer-element--item--content: hsla(0, 0%, 100%, 0.822);
+  --normal-text: hsla(0, 0%, 20%, 0.712);
+  --header-img: '';
+  --social-media-icon-colors: hsl(0, 0%, 100%);
+}
