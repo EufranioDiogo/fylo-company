@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="CSS/light-theme.css">
+  <link id="theme" rel="stylesheet" href="CSS/dark-theme.css">
   <link rel="stylesheet" href="CSS/universal.css">
   <link rel="stylesheet" href="CSS/index.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -30,7 +30,7 @@
 <body>
   <div id="app">
     <div class="header-container">
-      <img src="./images/logo.svg" alt="" class="header-container--logo">
+      <img src="./images/logoLight.svg" alt="" class="header-container--logo">
 
       <ul class="header-container--menu">
         <li class="menu-item">
@@ -43,6 +43,10 @@
           <a href="" class="menu-link">Sign In</a>
         </li>
       </ul>
+
+      <button class="theme-toogle-button">
+        <img src="./images/icon-sun.svg" alt="" class="theme-toogle-button--img">
+      </button>
     </div>
 
     <div class="section section-1">
@@ -137,33 +141,17 @@
         </div>
       </div>
 
-      <div class="quote-container">
-        <span class="quote-text normal-text">
-          Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become
-          a well-oiled collaboration machine.
-        </span>
-        <div class="quote-info-container">
-          <img src="./images/profile-2.jpg" alt="" class="quote-user-img">
-          <div class="quote-user-info">
-            <h5 class="quote-username">Bruce McKenzie</h5>
-            <h6 class="quote-user-position">Founder & CEO, Huddle</h6>
-          </div>
-        </div>
-      </div>
+      <ul class="quote--list-controller">
+        <li id="list-controller--item-0" class="list-controller--item" value="0" onclick="changeSlideShowIndexPosition(0)">
 
-      <div class="quote-container">
-        <span class="quote-text normal-text">
-          Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
-          become a well-oiled collaboration machine.
-        </span>
-        <div class="quote-info-container">
-          <img src="./images/profile-3.jpg" alt="" class="quote-user-img">
-          <div class="quote-user-info">
-            <h5 class="quote-username">Iva Boyd</h5>
-            <h6 class="quote-user-position">Founder & CEO, Huddle</h6>
-          </div>
-        </div>
-      </div>
+        </li>
+        <li id="list-controller--item-1" class="list-controller--item opacity-50" value="1" onclick="changeSlideShowIndexPosition(1)">
+          
+        </li>
+        <li id="list-controller--item-2" class="list-controller--item opacity-50" value="2" onclick="changeSlideShowIndexPosition(2)">
+          
+        </li>
+      </ul>
     </div>
 
     <div class="section section-5 get-started-section">
@@ -260,6 +248,7 @@
       </div>
     </footer>
   </div>
+  <script src="./JS/index.js"></script>
 </body>
 
 </html>
