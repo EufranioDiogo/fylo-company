@@ -213,6 +213,7 @@
   list-style: none;
   position: absolute;
   bottom: -10%;
+  cursor: pointer;
 }
 .opacity-50 {
   opacity: 0.5;
